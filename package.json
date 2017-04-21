@@ -1,0 +1,30 @@
+{
+  "name": "blyss",
+  "description": "Blissful JavaScript style rules derived from feross/standard.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Saad Quadri",
+    "email": "saad@saadq.com",
+    "url": "http://saadq.com"
+  },
+  "bin": {
+    "blyss": "./bin/cmd.js"
+  },
+  "bugs": {
+    "url": "https://github.com/saadq/blyss/issues"
+  },
+  "homepage": "https://github.com/saadq/blyss",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-config-standard-jsx": "^4.0.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-node": "^4.2.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^6.10.3",
+    "eslint-plugin-standard": "^3.0.1",
+    "standard-engine": "^7.0.0"
+  }
+}
