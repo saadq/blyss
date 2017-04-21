@@ -1,6 +1,6 @@
 # JavaScript Blyss Style
 
-All the goodness of [feross/standard] with some adjustments.
+All the goodness of [feross/standard](https://github.com/feross/standard) with some adjustments.
 
 ## Installation
 
