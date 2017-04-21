@@ -51,7 +51,7 @@ function* () {}
 function *() {}
 ```
 
-- Check [feross/standard] for the rest of the rules.
+- Check [feross/standard](https://github.com/feross/standard) for the rest of the rules.
 
 ## Usage
 
@@ -156,4 +156,4 @@ If you want prettier output, just install the [`snazzy`](https://github.com/fero
 $ blyss --verbose | snazzy
 ```
 
-See [feross/standard] for more information.
+See [feross/standard](https://github.com/feross/standard) for more information.
