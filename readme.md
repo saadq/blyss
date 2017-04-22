@@ -51,6 +51,77 @@ function* () {}
 function *() {}
 ```
 
+- No `var`
+
+```js
+// Bad (Standard allows)
+var x = 10
+
+// Okay (only if reassignment necessary)
+let x = 10
+
+// Good
+const x = 10
+```
+
+- Prefer `const`
+
+```js
+// Bad (Standard allows)
+let x = () => {}
+
+// Good
+const x = () => {}
+```
+
+- Prefer arrow functions for callbacks.
+
+```js
+const nums = [10, 20, 30]
+
+// Bad
+nums.forEach(function(num) {
+  console.log(num)
+})
+
+// Good
+nums.forEach(num => console.log(num))
+```
+
+- Prefer template literals over string concatenation.
+
+```js
+const name = 'John'
+
+// Bad
+const message = 'Hello ' + name
+
+// Good
+const message = `Hello ${name}`
+```
+
+- Arrow functions have parentheses as needed, except they are required when there is a block body.
+
+```js
+const nums = [10, 20, 30]
+
+// Bad
+nums.forEach((num) => console.log(num))
+
+// Good
+nums.forEach(num => console.log(num))
+
+// Bad
+nums.forEach(num => {
+  console.log(num)
+})
+
+// Good
+nums.forEach((num) => {
+  console.log(num)
+})
+```
+
 - Check [feross/standard](https://github.com/feross/standard) for the rest of the rules.
 
 ## Usage

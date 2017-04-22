@@ -313,9 +313,9 @@ escope@^3.6.0:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
-eslint-config-blyss@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-blyss/-/eslint-config-blyss-1.0.0.tgz#20003d082dfcfbd62d14811c60f9c1bd1c9d0d13"
+eslint-config-blyss@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-blyss/-/eslint-config-blyss-2.0.0.tgz#7654f797dde8ea232aef605763880be7021aa36c"
 
 eslint-config-standard-jsx@^4.0.1:
   version "4.0.1"
