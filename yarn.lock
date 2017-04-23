@@ -78,6 +78,21 @@ balanced-match@^0.4.1:
   version "0.4.2"
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-0.4.2.tgz#cb3f3e3c732dc0f01ee70b403f302e61d7709838"
 
+blyss@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/blyss/-/blyss-2.0.0.tgz#de640b0e9d5b3cf74728190710e7c9e14af366f1"
+  dependencies:
+    eslint "^3.19.0"
+    eslint-config-blyss "^2.0.0"
+    eslint-config-standard "^10.2.1"
+    eslint-config-standard-jsx "^4.0.1"
+    eslint-plugin-import "^2.2.0"
+    eslint-plugin-node "^4.2.2"
+    eslint-plugin-promise "^3.5.0"
+    eslint-plugin-react "^6.10.3"
+    eslint-plugin-standard "^3.0.1"
+    standard-engine "^7.0.0"
+
 brace-expansion@^1.0.0:
   version "1.1.7"
   resolved "https://registry.yarnpkg.com/brace-expansion/-/brace-expansion-1.1.7.tgz#3effc3c50e000531fb720eaff80f0ae8ef23cf59"

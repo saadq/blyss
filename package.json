@@ -2,6 +2,11 @@
   "name": "blyss",
   "description": "Blissful JavaScript style rules derived from feross/standard.",
   "version": "2.0.0",
+  "scripts": {
+    "lint": "blyss",
+    "fix": "blyss --fix",
+    "test": "npm run lint --silent"
+  },
   "author": {
     "name": "Saad Quadri",
     "email": "saad@saadq.com",
@@ -12,6 +17,9 @@
   },
   "bugs": {
     "url": "https://github.com/saadq/blyss/issues"
+  },
+  "engines": {
+    "node": ">=4.0.0"
   },
   "homepage": "https://github.com/saadq/blyss",
   "main": "index.js",
@@ -27,5 +35,8 @@
     "eslint-plugin-react": "^6.10.3",
     "eslint-plugin-standard": "^3.0.1",
     "standard-engine": "^7.0.0"
+  },
+  "devDependencies": {
+    "blyss": "^2.0.0"
   }
 }

@@ -1,5 +1,5 @@
-var path = require('path')
-var pkg = require('./package.json')
+const path = require('path')
+const pkg = require('./package.json')
 
 module.exports = {
   cmd: 'blyss',
