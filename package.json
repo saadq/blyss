@@ -26,7 +26,7 @@
   "license": "MIT",
   "dependencies": {
     "eslint": "^3.19.0",
-    "eslint-config-blyss": "^3.0.0",
+    "eslint-config-blyss": "^3.0.1",
     "eslint-config-standard": "^10.2.1",
     "eslint-config-standard-jsx": "^4.0.1",
     "eslint-plugin-import": "^2.2.0",

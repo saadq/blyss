@@ -332,9 +332,9 @@ eslint-config-blyss@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/eslint-config-blyss/-/eslint-config-blyss-2.0.0.tgz#7654f797dde8ea232aef605763880be7021aa36c"
 
-eslint-config-blyss@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-blyss/-/eslint-config-blyss-3.0.0.tgz#ade0c67d868861959107cd5d804a1f91540f58d9"
+eslint-config-blyss@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/eslint-config-blyss/-/eslint-config-blyss-3.0.1.tgz#2f932af74a6240c5a24036c98d992bac04213331"
 
 eslint-config-standard-jsx@^4.0.1:
   version "4.0.1"
