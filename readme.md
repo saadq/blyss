@@ -1,6 +1,6 @@
 # JavaScript Blyss Style
 
-All the goodness of [feross/standard](https://github.com/feross/standard) with some adjustments.
+A stricter [standard](https://github.com/feross/standard) of code style.
 
 ## Installation
 
@@ -10,7 +10,7 @@ npm install blyss
 
 ## Rules
 
-`blyss` deviates from `standard` in a few ways:
+`blyss` deviates from `standard` in a the following ways:
 
 - No space before function parens.
 
@@ -120,6 +120,72 @@ nums.forEach(num => {
 nums.forEach((num) => {
   console.log(num)
 })
+```
+
+- Prefer function declarations (unless passing a function as an argument)
+
+```js
+// Bad
+const reducer = (state, action) => {
+  ...
+}
+
+// Good
+function reducer(state, action) {
+  ...
+}
+
+// Bad
+const TextDisplay = ({ message }) => (
+  <h1>{message}</h1>
+)
+
+// Good
+function TextDisplay({ message }) {
+  return (
+    <h1>{message}</h1>
+  )
+}
+```
+
+- Newlines after variables, before `return`, and after each method call in a chain.
+
+```js
+// Bad
+const x = 10
+const y = 15
+console.log(x + y)
+
+// Good
+const x = 10
+const y = 15
+
+console.log(x + y)
+
+// Bad
+if (true) {
+  ...
+}
+return x + y
+
+// Good
+if (true) {
+  ...
+}
+
+return x + y
+
+// Bad
+const str = 'hello'
+str.split('').map((char, index) => `${index}:${char} `).join('')
+
+// Good
+const str = 'hello'
+
+str
+  .split('')
+  .map((char, index) => `${index}:${char} `)
+  .join('')
 ```
 
 - Check [feross/standard](https://github.com/feross/standard) for the rest of the rules.
