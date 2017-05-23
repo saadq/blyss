@@ -22,6 +22,16 @@ function foo () {}
 function foo() {}
 ```
 
+- Double quotes for JSX.
+
+```js
+// Bad (Standard enforces)
+<Text message='hello' />
+
+// Good
+<Text message="hello" />
+```
+
 - Spaces around object curly braces enforced.
 
 ```js
