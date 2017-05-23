@@ -1,7 +1,7 @@
 {
   "name": "blyss",
   "description": "Blissful JavaScript style rules derived from feross/standard.",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "scripts": {
     "lint": "blyss",
     "fix": "blyss --fix",
