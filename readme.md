@@ -98,40 +98,6 @@ nums.forEach(function(num) {
 nums.forEach(num => console.log(num))
 ```
 
-- Prefer template literals over string concatenation.
-
-```js
-const name = 'John'
-
-// Bad
-const message = 'Hello ' + name
-
-// Good
-const message = `Hello ${name}`
-```
-
-- Arrow functions have parentheses as needed, except they are required when there is a block body.
-
-```js
-const nums = [10, 20, 30]
-
-// Bad
-nums.forEach((num) => console.log(num))
-
-// Good
-nums.forEach(num => console.log(num))
-
-// Bad
-nums.forEach(num => {
-  console.log(num)
-})
-
-// Good
-nums.forEach((num) => {
-  console.log(num)
-})
-```
-
 - Prefer function declarations (unless passing a function as an argument)
 
 ```js
@@ -156,46 +122,6 @@ function TextDisplay({ message }) {
     <h1>{message}</h1>
   )
 }
-```
-
-- Newlines after variables, before `return`, and after each method call in a chain.
-
-```js
-// Bad
-const x = 10
-const y = 15
-console.log(x + y)
-
-// Good
-const x = 10
-const y = 15
-
-console.log(x + y)
-
-// Bad
-if (true) {
-  ...
-}
-return x + y
-
-// Good
-if (true) {
-  ...
-}
-
-return x + y
-
-// Bad
-const str = 'hello'
-str.split('').map((char, index) => `${index}:${char} `).join('')
-
-// Good
-const str = 'hello'
-
-str
-  .split('')
-  .map((char, index) => `${index}:${char} `)
-  .join('')
 ```
 
 - Check [feross/standard](https://github.com/feross/standard) for the rest of the rules.
