@@ -27,9 +27,8 @@
   "dependencies": {
     "babel-eslint": "^7.2.3",
     "eslint": "^3.19.0",
-    "eslint-config-blyss": "^5.1.0",
+    "eslint-config-blyss": "^6.0.0",
     "eslint-config-standard": "^10.2.1",
-    "eslint-config-standard-flow": "^1.0.1",
     "eslint-config-standard-jsx": "^4.0.1",
     "eslint-plugin-flowtype": "^2.34.0",
     "eslint-plugin-import": "^2.2.0",

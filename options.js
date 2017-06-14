@@ -9,6 +9,6 @@ module.exports = {
   tagline: 'Blyss for All',
   eslint: require('eslint'),
   eslintConfig: {
-    configFile: path.join(__dirname, 'eslintrc.json')
+    configFile: path.join(__dirname, '.eslintrc.json')
   }
 }
