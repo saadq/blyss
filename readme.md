@@ -124,6 +124,25 @@ function TextDisplay({ message }) {
 }
 ```
 
+- Newline after block comments
+
+```js
+/**
+ * Adds two numbers together (Bad).
+ */
+ function sum(a, b) {
+   return a + b
+ }
+
+/**
+ * Adds two numbers together (Good).
+ */
+
+ function sum(a, b) {
+   return a + b
+ }
+```
+
 - Check [feross/standard](https://github.com/feross/standard) for the rest of the rules.
 
 ## Usage
