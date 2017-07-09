@@ -1,6 +1,13 @@
 # JavaScript Blyss Style
 
-A stricter [standard](https://github.com/feross/standard) of code style that is compatible with [prettier](https://github.com/prettier/prettier).
+A stricter [standard](https://github.com/feross/standard) of code style.
+
+**Features**:
+
+* Strict ES6 Rules
+* flowtype support out-of-the-box.
+* `babel-eslint` is used as the parser out-of-the-box.
+* Compatibility with [`prettier`](https://github.com/prettier/prettier).
 
 ## Installation
 
