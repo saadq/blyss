@@ -1,6 +1,6 @@
 # JavaScript Blyss Style
 
-A stricter [standard](https://github.com/feross/standard) of code style.
+A stricter [standard](https://github.com/feross/standard) of code style that is compatible with [prettier](https://github.com/prettier/prettier).
 
 ## Installation
 
