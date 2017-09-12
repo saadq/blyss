@@ -13,7 +13,7 @@
     "url": "http://saadq.com"
   },
   "bin": {
-    "blyss": "./bin/cmd.js"
+    "blyss": "./bin/blyss.js"
   },
   "bugs": {
     "url": "https://github.com/saadq/blyss/issues"
