@@ -1,5 +1,10 @@
-// programmatic usage
+/**
+ * @flow
+ */
+
 const Linter = require('standard-engine').linter
 const opts = require('./options.js')
 
-module.exports = new Linter(opts)
+const linter = new Linter(opts)
+
+module.exports = linter
