@@ -1,6 +1,6 @@
 {
   "name": "blyss",
-  "description": "Blissful JavaScript style rules derived from feross/standard.",
+  "description": "A preset JavaScript linter that leaves style rules to be handled by Prettier.",
   "version": "8.1.0",
   "scripts": {
     "lint": "blyss",
@@ -27,15 +27,11 @@
   "dependencies": {
     "babel-eslint": "^7.2.3",
     "eslint": "^4.6.1",
-    "eslint-config-blyss": "^8.1.0",
-    "eslint-config-standard": "^10.2.1",
-    "eslint-config-standard-jsx": "^4.0.2",
+    "eslint-config-blyss": "^9.0.0",
     "eslint-plugin-flowtype": "^2.35.1",
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-node": "^5.1.1",
-    "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-react": "^7.3.0",
-    "eslint-plugin-standard": "^3.0.1",
     "standard-engine": "^7.1.0"
   }
 }
