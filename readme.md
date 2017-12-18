@@ -51,9 +51,8 @@ $ blyss --verbose | snazzy
 
 ### Ignoring files
 
-Just like in `standard`, The paths `node_modules/**`, `*.min.js`, `bundle.js`, `coverage/**`, hidden files/folders
-(beginning with `.`), and all patterns in a project's root `.gitignore` file are
-automatically excluded when looking for `.js` files to check.
+Just like in `standard`, the paths `node_modules/**`, `*.min.js`, `bundle.js`, `coverage/**`, hidden files/folders (beginning with `.`), and all patterns in a project's root `.gitignore` file are
+automatically excluded when looking for `.js` files to check. Additionally, `flow-typed/npm/**/*.js` is also ignored.
 
 Sometimes you need to ignore additional folders or specific minfied files. To do that, add
 a `blyss.ignore` property to `package.json`:
