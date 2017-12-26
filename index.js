@@ -2,7 +2,7 @@
  * @flow
  */
 
-const Linter = require('standard-engine').linter
+const Linter = require('blyss-engine').linter
 const opts = require('./options.js')
 
 const linter = new Linter(opts)
