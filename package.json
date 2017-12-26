@@ -26,12 +26,12 @@
   "license": "MIT",
   "dependencies": {
     "babel-eslint": "^7.2.3",
-    "blyss-engine": "^1.0.0",
     "eslint": "^4.6.1",
     "eslint-config-blyss": "^9.0.0",
     "eslint-plugin-flowtype": "^2.35.1",
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-node": "^5.1.1",
-    "eslint-plugin-react": "^7.3.0"
+    "eslint-plugin-react": "^7.3.0",
+    "standard-engine": "^7.1.0"
   }
 }
