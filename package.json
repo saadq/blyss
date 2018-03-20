@@ -1,7 +1,7 @@
 {
   "name": "blyss",
   "description": "A preset JavaScript linter that leaves style rules to be handled by Prettier.",
-  "version": "11.0.0",
+  "version": "11.0.1",
   "scripts": {
     "lint": "blyss",
     "fix": "blyss --fix",
