@@ -1,3 +1,6 @@
+# DEPRECATION NOTICE
+Use [`lynt`](https://github.com/saadq/lynt/) instead.
+
 # JavaScript Blyss Style
 
 A preset linter without any style rules. Focus on the errors and let [Prettier](https://prettier.io) handle your styling.
